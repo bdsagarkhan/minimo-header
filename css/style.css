@@ -1,0 +1,62 @@
+/*font family*/
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src:  url('../fonts/playfair-display/PlayfairDisplay-Regular.otf') format('woff2')
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+img	{
+	max-width: 100%;
+}
+/*header start*/
+.header {
+	padding: 30px 0;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+.wrapper_inner {
+	overflow: hidden;
+}
+.logo {
+
+	width: 15%;
+	float: left;
+}
+.navigation {
+	
+	width: 85%;
+	float: left;
+}
+.navigation ul {
+	
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.navigation ul li {
+	
+	list-style: none;
+	float: left;
+}
+.navigation ul li a {
+	
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	color: #626262;
+	margin: 0 50px;
+	/*! padding: 5px; */
+}
+/*header end*/
+
+.banner_area img {
+	width: 100%;
+}
